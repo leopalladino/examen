@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.a41586514.pruebafragment.BlankFragment">
+
+
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/maxpob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mayor poblacion" />
+        <RadioButton android:id="@+id/minpob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menor poblacion"
+            />
+        <RadioButton android:id="@+id/lat0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitud mas cercana a 0"
+            />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOSTRAR"
+        android:onClick="Mostrar"
+        android:id="@+id/btn_mostrar" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textciudad" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texteleccion" />
+
+</LinearLayout>
